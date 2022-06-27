@@ -1,0 +1,72 @@
+form {
+  padding: 20px 40px;
+  max-width: 400px;
+  border: 5px solid rgb(0, 242, 255);
+  border-radius: 10px;
+  margin-right: 300px;
+}
+
+.form-xarajat {
+  padding: 20px 40px;
+  max-width: 400px;
+  border: 5px solid rgb(255, 6, 6);
+  border-radius: 10px;
+  margin-right: 300px;
+}
+
+.budget + .budget {
+  margin-left: 150px;
+}
+
+.budget-input {
+  border: 3px solid rgb(0, 242, 255);
+  border-radius: 5px;
+}
+
+.budget-input:focus {
+  outline: none;
+  border: 2px solid rgb(0, 242, 255);
+  border-radius: 10px;
+}
+
+.expence-input {
+  border: 3px solid rgb(255, 6, 6);
+  border-radius: 7px;
+}
+
+.expence-input:focus {
+  outline: none;
+  border: 2px solid rgb(255, 6, 6);
+  border-radius: 10px;
+}
+
+.name-input {
+  border: 3px solid rgb(255, 6, 6);
+  border-radius: 7px;
+}
+
+.name-input:focus {
+  outline: none;
+  border: 2px solid rgb(255, 6, 6);
+  border-radius: 10px;
+}
+
+.expence-item {
+  max-width: 200px;
+  width: 100%;
+}
+
+.expence-item + .expence-item {
+  margin-left: 150px;
+}
+
+.remove {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/trash-can-solid.svg);
+  background-repeat: no-repeat;
+}
